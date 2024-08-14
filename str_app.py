@@ -80,7 +80,7 @@ def map_page():
     numeric_columns = df.select_dtypes(include=['float64', 'int64']).columns.tolist()
 
     #Dropdown to select a column for the gauge
-    selected_column = st.selectbox("Select a numeric variable to view as a gauge", numeric_columns)
+    selected_column = st.selectbox("Select a variable to view as a gauge", numeric_columns)
 
     #Display the gauge for the selected column
     st.subheader(f"Range of values for the {selected_column} and {selected_country} placement in this range")
