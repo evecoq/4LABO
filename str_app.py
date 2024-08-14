@@ -56,7 +56,7 @@ def first_page():
     
     numeric_columns = df.select_dtypes(include=['float64', 'int64']).columns.tolist()
 
-    st.subheader("Select variables for the scatter plot")
+    st.subheader("Select variables and see general trends and correlations between variables by country")
     x_axis = st.selectbox("Select the X-axis variable", numeric_columns, format_func=get_label)
     y_axis = st.selectbox("Select the Y-axis variable", numeric_columns, format_func=get_label)
     size_param = st.selectbox("Select the size variable", numeric_columns, format_func=get_label)
