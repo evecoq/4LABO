@@ -21,7 +21,7 @@ column_labels = {
     'Participatory_Democracy': 'Participatory Democracy',
     'Deliberative_Democracy': 'Deliberative Democracy',
     'Egalitarian_Democracy': 'Egalitarian Democracy',
-    'Primary_Enrolled_per_K': 'Enrollment ratio primary',
+    'Primary_Enrolled_per_K': 'Enrollment ratio primary education',
     'Secondary_Low_Enrolled_per_K': 'Students enrolled in lower secondary education (thousands)',
     'Secondary_Up_Enrolled_per_K': 'Students enrolled in upper secondary education (thousands)',
     'Happiness_Score': 'Happiness score',
